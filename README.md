@@ -1,16 +1,8 @@
 # recipeaggregator
 
-A new Flutter application.
+PROJECT CONCEPT
 
-## Getting Started
+Not everyone has the memory or ability to memorize and prepare different meals every day, especially when the ingredients available are usually the same. For this reason, having a tool in your hands that allows you to find suggestions for meals that can be prepared with the ingredients you have at the moment can be of great value on days when you are not willing to go to the supermarket. 
 
-This project is a starting point for a Flutter application.
+If you are not in the mood to cook even after checking out the suggestions in our app, it also offers you a list of restaurants from which you can request the suggested meal. In this way, you can rest better while providing a meal in time for you or whoever you are cooking for.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
