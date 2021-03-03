@@ -18,7 +18,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  int _current_index = 0;
+
   Widget callPage(int currentIndex) {
 
   }
@@ -26,6 +26,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Color(0XFFC7506B),
         leading: IconButton(
           onPressed: () {
             Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) => Profile()));
@@ -364,7 +365,7 @@ class _HomePageState extends State<HomePage> {
       ),
 
       bottomNavigationBar: BottomNavigationBar(
-        currentIndex: _current_index,
+
         items: [
           BottomNavigationBarItem(
             icon: Icon(
@@ -385,12 +386,7 @@ class _HomePageState extends State<HomePage> {
           ),
 
         ],
-        onTap: (index){
-          setState(() {
-            _current_index=index;
-          });
 
-        },
       ),
     );
   }

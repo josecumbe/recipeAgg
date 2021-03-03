@@ -12,6 +12,7 @@ class _DetailsRecipe extends State<DetailsRecipe> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Color(0XFFC7506B),
         centerTitle: true,
         title: Text('Prepare Recipe'),
         leading: IconButton(

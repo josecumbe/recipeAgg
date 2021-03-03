@@ -19,6 +19,7 @@ class _ProfileState extends State<Profile> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Color(0XFFC7506B),
         leading: IconButton(
           onPressed: () {
             Navigator.pop(context);

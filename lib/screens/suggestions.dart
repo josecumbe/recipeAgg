@@ -14,7 +14,10 @@ class _Suggestions extends State<Suggestions> {
   Widget build(BuildContext context) {
     return Scaffold(
 
+
+
       appBar: AppBar(
+        backgroundColor: Color(0XFFC7506B),
 
         centerTitle: true,
         title: Text('Suggested Recipes'),
